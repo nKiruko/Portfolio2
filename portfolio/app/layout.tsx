@@ -1,11 +1,12 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import Navbar from '@/componants/navbar'
-import Footer from '@/componants/footer'
-export const runtime = 'edge'
 
-const inter = Inter({ subsets: ['latin'] })
+import Navbar from '@/components/navbar'
+import Footer from '@/components/footer'
+
+import { lato } from './fonts'
+
+export const runtime = 'edge'
 
 export const metadata: Metadata = {
   title: 'Portfolio',
@@ -18,19 +19,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-  <body className=" min-h-screen flex flex-col bg-primary text-white font-spartan">
-        <nav className={inter.className}> 
+    <html lang="en" className={lato.className}>
+      <body className="min-h-screen flex flex-col bg-main text-black">
+
         <Navbar /> 
-        </nav>
 
         <main className="flex-grow">
           {children}
         </main>
 
-        <footer>
-          <Footer />
-        </footer>
+        <Footer />
       </body>
     </html>
   )
