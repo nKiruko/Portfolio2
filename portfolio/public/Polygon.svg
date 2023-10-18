@@ -1,0 +1,12 @@
+<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_125_16)">
+<path d="M24.2424 0.287247L23.5511 20.5286L4.00105 0.97856L24.2424 0.287247Z" fill="black"/>
+<path d="M5.16857 1.43898L23.7245 0.805229L23.0907 19.3611L5.16857 1.43898Z" stroke="black"/>
+</g>
+<defs>
+<filter id="filter0_d_125_16" x="0.0010376" y="0.287354" width="28.2414" height="28.2412" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_125_16" result="shape"/>
+</filter>
+</defs>
+</svg>

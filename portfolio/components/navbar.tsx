@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function Navbar() {
    return (
-     <nav className="flex justify-end gap-10">
-        <Link href="" className="p-5">Work</Link>
-        <Link href="" className="p-5">About</Link>
-        <Link href="" className="p-5">Contact</Link>
-        <Image src={Lines} alt="/" />
+     <nav className="flex justify-end mr-10 gap-5">
+        <Link href="" className="p-5 text-lg">Work</Link>
+        <Link href="" className="p-5 text-lg">About</Link>
+        <Link href="" className="p-5 text-lg">Contact</Link>
+        <Image src={Lines} alt="/" className="m-5 ml-16" />
      </nav>
    )
  }
