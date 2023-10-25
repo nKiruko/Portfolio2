@@ -5,6 +5,7 @@ import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 import Sidebar from '@/components/sidebar'
 
+
 import { lato } from './fonts'
 
 export const runtime = 'edge'
@@ -25,9 +26,8 @@ export default function RootLayout({
 
         <Navbar /> 
         <Sidebar /> 
-       
+        
         <main className="flex-grow">
-
           {children}
         </main>
         
