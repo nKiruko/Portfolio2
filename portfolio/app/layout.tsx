@@ -22,12 +22,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={lato.className}>
-      <body className="min-h-screen flex flex-col bg-main text-black">
+      <body className="min-h-screen flex flex-col bg-main text-black select-none">
 
         <Navbar /> 
         <Sidebar /> 
         
-        <main className="flex-grow">
+        <main>
           {children}
         </main>
         
