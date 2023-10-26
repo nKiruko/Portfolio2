@@ -1,11 +1,10 @@
+
 import './globals.css'
 import type { Metadata } from 'next'
 
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 import Sidebar from '@/components/sidebar'
-
-
 import { lato } from './fonts'
 
 export const runtime = 'edge'
@@ -22,12 +21,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={lato.className}>
-      <body className="min-h-screen flex flex-col bg-main text-black select-none">
-
+      <body className="flex flex-col bg-main text-black select-none">
         <Navbar /> 
-        <Sidebar /> 
+        <Sidebar />
         
-        <main>
+        <main className=''>
           {children}
         </main>
         

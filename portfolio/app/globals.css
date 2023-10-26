@@ -2,9 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.rat2 {
-   background: radial-gradient(circle at 22.5% 11.5%, #EFEFE9 11.5%, rgb(0,0,0) 11.5%) ;
-   background-clip: text;
-
-}
